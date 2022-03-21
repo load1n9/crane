@@ -1,0 +1,34 @@
+---
+HEADER:
+  DIMENSIONS:
+    W: 15
+    H: 15
+STEPS:
+- FOLD:
+    FROM:
+      X: 0
+      Y: 0
+    TO:
+      X: 15
+      Y: 15
+- UNFOLD:
+    FROM:
+      X: 15
+      Y: 15
+    TO:
+      X: 0
+      Y: 0
+- FOLD:
+    FROM:
+      X: 0
+      Y: 15
+    TO:
+      X: 15
+      Y: 0
+- UNFOLD:
+    FROM:
+      X: 15
+      Y: 0
+    TO:
+      X: 0
+      Y: 15
